@@ -7,7 +7,6 @@ input.onGesture(Gesture.Shake, function () {
 input.onButtonPressed(Button.B, function () {
     basic.clearScreen()
     steps = 0
-    basic.showNumber(steps)
 })
 let steps = 0
 basic.clearScreen()
