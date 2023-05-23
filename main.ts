@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-	
+    basic.showNumber(steps)
 })
 input.onGesture(Gesture.Shake, function () {
 	
@@ -10,6 +10,7 @@ input.onButtonPressed(Button.B, function () {
     basic.showNumber(steps)
 })
 let steps = 0
+basic.clearScreen()
 steps = 0
 basic.showNumber(steps)
 basic.forever(function () {
